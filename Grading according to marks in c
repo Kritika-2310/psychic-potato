@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+int sub1,sub2,sub3;
+printf("Enter marks in subject 1=");
+scanf("%d",&sub1);
+printf("\nEnter marks in subject 2=");
+scanf("%d",&sub2);
+printf("\nEnter marks in subject 3=");
+scanf("%d",&sub3);
+float total=((sub1+sub2+sub3)/3)*1;
+if(total>=90)
+{
+printf("\nGRADE=A+");
+}
+else if(total>=80 && total<90)
+{
+printf("\nGRADE=A");
+}
+else if(total>=70 && total<80)
+{
+printf("\nGRADE=B");
+}
+else
+{
+printf("\nFIRST DIVISION");
+}
+return 0;
+}
